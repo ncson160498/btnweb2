@@ -1,0 +1,33 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+li {
+    font-style: italic;
+    font-weight: 800;
+}
+
+caption {
+    color: brown;
+    text-shadow: 2px 2px 5px red;
+}
+
+table {
+    max-width: 45%;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid red;
+    
+}
+
+.intro {
+    display: none;
+}
+
+div.avatarPerson1:hover .intro{
+    display: block;
+} 
+a {
+    text-align: center;
+}
